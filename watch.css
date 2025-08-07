@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 90%);
+}
+
+h1{
+    font-family: Arial, sans-serif;
+    color: hsl(0, 0%, 20%);
+    font-size: 4rem;
+}
+
+#container{
+display: flex; 
+flex-direction: column;
+border: 5px solid;
+padding: 30px;
+border-radius: 50px;
+background-color: white;
+}
+
+#timer{
+    text-align: center;
+    font-size: 4rem;
+    font-family: monospace;
+}
+
+#buttons button{
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+    padding: 8px 20px;
+    min-width: 125px;
+}
+
+#startbtn{
+    background-color: hsl(120, 96%, 40%);
+    cursor: pointer;
+}
+#startbtn:hover{
+    background-color: hsl(120, 96%, 30%);
+}
+
+#stopbtn{
+    background-color: hsl(0, 100%, 50%);
+    cursor: pointer;
+}
+#stopbtn:hover{
+    background-color: hsl(0, 100%, 40%);
+}
+
+#restartbtn{
+    background-color: hsl(243, 96%, 40%);
+    cursor: pointer;
+}
+#restartbtn:hover{
+    background-color: hsl(243, 96%, 30%);
+}
